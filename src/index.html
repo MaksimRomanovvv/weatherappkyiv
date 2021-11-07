@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wp_base</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,400&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- <div class="preloader">
+      <div class="preloader__row">
+        <div class="preloader__item"></div>
+        <div class="preloader__item"></div>
+      </div>
+    </div> -->
+    <!-- <div class="gradient"> -->
+      <div class="container">
+        <header>
+          <form class="form">
+          <div class="geo"></div>
+          <div class="next-city">
+            <img src="./img/Vector.png" alt="" class="next-img" />
+          </div>
+          <input type="text" class="city-search" placeholder="Enter the city.."/>
+          <div class="star"></div>
+          <div class="city-list"></div>
+          <div class="fav-container">
+            <div class="favorite-city-block">
+            </div>
+          </div>
+        </form>
+        </header>
+
+        <main>
+          <section class="weather">
+            <div class="current-weather">
+              <img class="main-img" src="#" alt="." />
+              <p class="city-name"></p>
+              <div class="temperature-block">
+                <p class="temperature"></p>
+                <article class="temperature-range">
+                  <div class="min-block">
+                    <p class="min-text">min</p>
+                    <p class="temperature-min"></p>
+                  </div>
+                  <div class="max-block"> 
+                    <p class="max-text">max</p>
+                    <p class="temperature-max"></p>
+                  </div>
+                 
+                </article>
+              </div>
+            </div>
+            <div class="check-weather">
+              <button class="today button">TODAY</button>
+              <button class="five-days button">5 DAYS</button>
+            </div>
+            <div class="current-time">
+              <p class="current-date"></p>
+              <div class="main-block">
+                <div class="first-block">
+                  <p class="current-month"></p>
+                  <p class="day-time"></p>
+                </div>
+                <div class="second-block">
+                  <p class="sunrise"></p>
+                  <p class="sunset"></p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <div class="quote-block">
+            <p class="quote">
+              Who cares about the clouds when we're together? Just sing a song
+              and bring the sunny weather.
+            </p>
+            <p class="quote-autor">Dale Evans</p>
+          </div>
+
+          <section class="five-day-block">
+            <div class="five-check-weather">
+              <button class="five-today">TODAY</button>
+              <button class="five-five-days">5 DAYS</button>
+            </div>
+            <h4 class="five-city">ddddd</h4>
+            <article class="main-weather">
+              <ul class="weather-list">
+                <li class="day1 day">
+                  <p class="five-day"></p>
+                  <p class="five-date"></p>
+                  <img src="#" alt="" class="five-img" />
+                  <div class="five-temperature">
+                    <p class="min"></p>
+                    <p class="max"></p>
+                  </div>
+                  <span id="1" class="check-more">more info</span>
+                </li>
+                <li class="day2 day">
+                  <p class="five-day"></p>
+                  <p class="five-date"></p>
+                  <img src="#" alt="" class="five-img" />
+                  <div class="five-temperature">
+                    <p class="min"></p>
+                    <p class="max"></p>
+                  </div>
+                  <span id="2" class="check-more">more info</span>
+                </li>
+                <li class="day3 day">
+                  <p class="five-day"></p>
+                  <p class="five-date"></p>
+                  <img src="#" alt="" class="five-img" />
+                  <div class="five-temperature">
+                    <p class="min"></p>
+                    <p class="max"></p>
+                  </div>
+                  <span id="3" class="check-more">more info</span>
+                </li>
+                <li class="day4 day">
+                  <p class="five-day"></p>
+                  <p class="five-date"></p>
+                  <img src="#" alt="" class="five-img" />
+                  <div class="five-temperature">
+                    <p class="min"></p>
+                    <p class="max"></p>
+                  </div>
+                  <span id="4" class="check-more">more info</span>
+                </li>
+                <li class="day5 day">
+                  <p class="five-day"></p>
+                  <p class="five-date"></p>
+                  <img src="#" alt="" class="five-img" />
+                  <div class="five-temperature">
+                    <p class="min"></p>
+                    <p class="max"></p>
+                  </div>
+                  <span id="5" class="check-more">more info</span>
+                </li>
+              </ul>
+              <img src="./img/prev2.svg" alt="" class="prev" /><img src="./img/next2.svg" alt=""class="next" />
+            </article>
+           
+            <div class="overflow"><ul class="weather-more"></ul></div>
+            <!-- <div class="scroll-hours">
+              <img class="next-img" src="./img/Vector.png" alt="" />
+            </div> -->
+             
+          </section>
+          <button class="chart-btn">Show Chart</button>
+          <div class="container-chart">
+            <button class="chart-btn-hide">Hide Chart</button>
+            <p class="average">AVERAGE:</p>
+            <!-- <div class="labels-block"> -->
+            
+            <!-- <div class="labels">
+            <p class="chart-temp">— Temperature, <span class="span-c">C°</span></p>
+            <p class="chart-humidity">— Humidity, <span class="span-hum">%</span></p>
+            <p class="chart-wind">— Wind Speed, <span class="span-wind">m/s</span></p>
+            <p class="chart-pressure">— Atmosphere Pressure, <span class="span-pressure">m/m</span></p>
+          </div> -->
+        <!-- </div> -->
+<div class="chart-container">
+            <div class="chart-zone"  >
+              <canvas class="chart" style=" height:250px; width:540px" id="myChart"></canvas>
+            </div>
+          </div>
+          </div>
+        </main>
+      </div>
+    <!-- </div> -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  </body>
+</html>

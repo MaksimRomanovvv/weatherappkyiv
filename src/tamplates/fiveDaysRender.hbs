@@ -1,0 +1,10 @@
+{{#each this}}
+<li class="hour-three">
+    <p class="time">{{dt_new}}:00</p>
+    <img class='five-hour-img'  src="{{visibility}}" alt="">
+<p class="five-hour-temp">{{main.temp}}°</p>
+<p class="atmosphere">{{main.pressure}} mm</p>
+<p class="humiditu">{{main.humidity}}%</p>
+<p class="wind-speed">{{wind.speed}} m/s</p>
+</li>
+{{/each}}

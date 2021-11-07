@@ -1,0 +1,9 @@
+<div>
+    <h2>{{name}}</h2>
+    <img src={{sprites.front_default}} alt="{{name}} photo">
+    <ul>
+        {{#each abilities}}
+        <li>{{this.ability.name}}</li>
+        {{/each}}
+    </ul>
+</div>

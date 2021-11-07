@@ -1,0 +1,11 @@
+
+{{#each this}}
+<div class="dish"><img width="300" src={{this.image}}>
+    <h2>{{this.name}}</h2>
+    <ul>
+{{#each this.ingredients}}
+        <li>{{this}}</li>
+{{/each}}
+    </ul>
+</div>
+{{/each}}
